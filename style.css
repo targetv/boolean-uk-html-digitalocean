@@ -99,7 +99,14 @@ nav{
 nav li{
     display: inline-block;
     margin-left: 20px;
-    font-size: 1.2rem;
+    font-size: 1rem;
+}
+
+ nav .nav-button{
+    border: 1px solid blue;
+    padding: 7px;
+    border-radius: 5px;
+    color: blue;
 }
 
 
@@ -164,6 +171,7 @@ nav li{
     border-radius: 5px;
     border: 1px solid lightgray;
     font-size: 1rem;
+    
 }
 
 button{
@@ -220,7 +228,7 @@ button{
    
 }
 .logo-images img{
-    width: 100px;
+    width: 200px;
 }
 
 .buisness-logos h3{
@@ -497,4 +505,14 @@ footer{
 .left-column{
     color: grey;
     margin: 20px 0px;
+}
+
+ .img-arrows .arrow-icon{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.left-arrow{
+    transform: rotate(180deg);
 }
