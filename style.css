@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/* Global Classes */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.blue{
+    color: rgb(33, 33, 243);
+}
+
+ul{
+    list-style: none;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h4{
+    margin: 20px 0px;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+/* GLobal Classes End */
+
+
+
+
+/* Header / Nav */
+.margin{
+    margin: 0px 300px;
+}
+
+
+
+
+header{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+
+.border{
+    width: 100vh;
+    border-bottom: 1px solid gray;
+}
+
+header img{
+    justify-self: center;
+
+}
+
+
+nav{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 50px;
+    
+}
+
+.nav{
+    list-style:none;
+    justify-self: right;
+    align-self: center;
+}
+
+.logo{
+    width: 150px;
+    
+}
+
+.right-nav{
+    justify-self: right;
+    padding-right: 30px;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
+
+
+/* Header / Nav End */
+
+
+/* Main */
+
+
+
+/* Hero Image Section */
+
+.hero-image{
+    background-image: url("img/BG-9.jpg");
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    place-items: right;
+    place-items: center;
+}
+
+.hero-text h2 {
+    font-size: 4rem;
+    color: white;
+    margin-top: 80px;
+    width: 17ch;
+}
+
+.hero-text p{
+    font-size: 1.5rem;
+    color: rgba(209, 209, 209, 0.932);
+}
+
+.form-area{
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px 20px;
+    margin-top: 70px;
+
+}
+
+.form-area h3{
+    width: 25ch;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 45px;
+    padding: 10px;
+}
+
+  .input-bar{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+}
+
+button{
+    display: block;
+    margin-bottom: 6px;
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.button1{
+  background-color: rgb(35, 158, 235);
+  color: white;  
+}
+.button2{
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.219);
+}
+
+.google-icon{
+    position: absolute;
+    width: 20px;
+    top: 5px;
+    left: 10px;
+    
+}
+
+.form-area p{
+    text-align: center;
+    font-size: 0.85rem;
+    margin-top: 20px;
+}
+.form-area a{
+    text-decoration: underline;
+    color: blue;
+}
+/* Hero Image End Section */
+
+/* Buisness Logos Section */
+
+.buisness-logos{
+    text-align: center;
+    padding: 80px 0px;
+    background-color: rgb(236, 236, 236);
+    
+}
+.logo-images{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 50px 0px;
+    place-items: center;
+   
+}
+.logo-images img{
+    width: 100px;
+}
+
+.buisness-logos h3{
+    color: rgb(110, 110, 110);
+}
+
+.buisness-logos a{
+    font-size: 1.2rem;
+
+}
+
+/* Deploy Section */
+
+.deploy-section{
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.deploy-section h2{
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+.deploy-section p {
+    font-size: 1.5rem;
+    color: rgb(139, 139, 139);
+    margin-bottom: 50px;
+}
+
+.deploy-container{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 70px;
+    padding-bottom: 50px;
+    justify-items: center;
+}
+
+.deploy-container ul{
+    border-left: 1px solid lightgray;
+    height: 300px;
+    padding-top: 30px;
+    
+}
+
+
+.deploy-container li{
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+
+.deploy-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    text-align: start;
+    grid-gap: 30px;
+
+}
+
+
+.deploy-content p{
+    font-size: 1.1rem;
+    width: 42ch;
+    line-height: 25px;
+}
+
+ /* End of deploy section */
+
+ /* Designed Section */
+
+.designed-section{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+}
+
+.designed-section h2{
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+.designed-section p{
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+.img-arrows{
+    display: grid;
+    grid-template-columns: 50px 600px 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+    
+}
+
+.img-arrows img{
+    width: 600px;
+}
+
+ .designed-section .small-para{
+    font-size: 1.2rem;
+}
+.designed-section li{
+    display: inline-block;
+}
+
+.circle{
+    width: 12px;
+    height: 12px;
+    border: 1px solid blue;
+    border-radius: 50%;
+  
+}
+
+.active{
+    background-color: blue;
+}
+
+/* End Design Section */
+
+/* Feactures section */
+
+.feactures-section{
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 80px;
+    
+}
+
+.feactures-section h2{
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+
+}
+.features-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: start;
+    grid-gap: 20px;
+}
+.features-content p{
+    font-size: 1.1rem;
+    line-height: 25px;
+    color: rgb(139, 139, 139);
+    margin-bottom: 50px;
+}
+
+/* End Feactures section */
+
+/* Service section */
+
+.service-section{
+    margin-top: 80px;
+    padding-bottom: 80px;
+    background-color: blue;
+    color: white;
+}
+
+.service-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 80px;
+    font-size: 2.2rem;
+}
+
+.server-list-containers{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.server-list-containers li{
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    border-bottom: 1px solid white;
+    padding: 10px 0px;
+    padding-left: 12px;
+    font-size: 0.8rem;
+    
+}
+.server-list-containers a{
+    justify-self: end;
+    margin-right: 12px;
+    color:  lightblue;
+}
+
+/* End sever-list */
+
+/* Development section */
+
+.development-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+
+.development-section h2{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 2.2rem;
+    
+}
+
+.development-section ul{
+    text-align: center;
+}
+
+.development-section li{
+    display: inline-block;
+}
+
+
+.get-started-section{
+    background-color: blue;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+
+}
+
+.get-started-section h2{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 2.2rem;
+}
+
+.get-started-section a{
+    background-color: white;
+    color: blue;
+    padding: 15px 20px;
+    border-radius: 5px;
+    
+}
+
+/* End development section */
+
+/* Footer */
+
+footer{
+    background-color: darkblue;
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.list-footer-containers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.list-footer-containers h4{
+    color: white;
+}
+
+.list-footer-containers li{
+    margin-top: 10px;
+    color: grey;
+    font-weight: 400;
+}
+
+.left-column li{
+    display: inline-block;
+    
+}
+.left-column{
+    color: grey;
+    margin: 20px 0px;
+}
